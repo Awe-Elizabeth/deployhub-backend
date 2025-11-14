@@ -31,7 +31,7 @@ jobs:
 
       - name: Run tests
         run: npm test
-# Trigger test retriggered
+# Trigger test
       - name: Trigger Render Deploy
         if: success()
         run: |
